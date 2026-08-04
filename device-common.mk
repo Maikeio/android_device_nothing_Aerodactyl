@@ -29,9 +29,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
-    AndroidAuto \
-    mapstub \
-    speechservicestub
+    AndroidAuto
+
+PRODUCT_PACKAGES += \
+    MatLog
 
 PRODUCT_PACKAGES += \
     com.android.hardware.boot \
